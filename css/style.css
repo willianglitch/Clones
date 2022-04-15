@@ -5,18 +5,61 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000;
+    /* background-color: #000; */
+    position: relative;
+    height: 100vh;
+    width: 100%;
     color: #fff;
     background-image: url(/assets/background.jpg);
     background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif; 
 }
-.header{
+body::before{
+    content: '';
+    background-color: #1C1C1CBB;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.header {
+    padding: 20px 40px;
+    position: relative;
+    z-index: 10px;
+}
+.loginBody{
+    /* z-index: 90px; */
+    padding: 50px;
+    max-width: 450px;
+    height: 520px;
+    background-color: #000000BB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* margin-top: 75px; */
+    transform: translateX(100%);
+    position:relative ;
+}
+.loginBody h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.loginBody input{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    outline: none;
+}
+.loginBody input:hover{
+    background-color: #444;
+}
 
-}
-.header img{
-    height: 60px;
-}
 
-.cardFooter img{
-    height: 30px;
-}
+
