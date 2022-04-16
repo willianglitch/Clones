@@ -35,13 +35,14 @@ body::before{
     /* z-index: 90px; */
     padding: 50px;
     max-width: 450px;
-    height: 520px;
+    height: 490px;
     background-color: #000000BB;
     box-sizing: border-box;
     border-radius: 10px;
     /* margin-top: 75px; */
     transform: translateX(100%);
     position:relative ;
+    margin-bottom: 150px;
 }
 .loginBody h2{
     font-size: 32px;
@@ -60,6 +61,83 @@ body::before{
 .loginBody input:hover{
     background-color: #444;
 }
+input[type="submit"]{
+    background-color: #e50914;
+    padding-left: 0px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #ff2c37;
+}
+.support{
+    color: #b3b3b3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.support input{
+    height: 15px;
+    width: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.remenber {
+    display: flex;
+    align-items: center;
+}
+.remenber span{
+    margin-right: 5px;
+    height: 25px;
+}
+.help a{
+    text-decoration: none;
+    color: #737373;
+}
+.help a:hover{
+    text-decoration: underline;
+}
+.loginFecebook{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+    margin-top: 10px;
+}
+.loginFecebook span{
+    margin-right: 5px;
+    font-size: 14px;
+}
+.loginFecebook span a{
+    text-decoration: none;
+    color: #737373;
+}
+.signUp {
+    color: #737373;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.signUp a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.signUp a:hover{
+    text-decoration: underline;
+}
+.terms{
+    color: #737373;
+    font-size: 13px;
+    margin-top: 15px;
+}
+.terms a{
+    text-decoration: none;
+    color: #0071eb;
+}
+.terms a:hover{
+    text-decoration: underline;
 
-
-
+}
