@@ -1,0 +1,53 @@
+.container{
+    max-width: 1400px;
+    height: 800px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: bisque;
+}
+.cards{
+    display: flex;
+    height: 100%;
+}
+.login-card{
+    background-color: #fff;
+    width: 25%;
+}
+.logo{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin-bottom: 5px;
+}
+.riot-logo img{
+    height: 35px;
+}
+.title-login{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: darkolivegreen;
+}
+.title-login h1{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    height: 50px;
+    width: 75%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+}
