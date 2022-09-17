@@ -18,7 +18,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
     margin-bottom: 5px;
 }
 .riot-logo img{
@@ -30,7 +29,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 5px;
-    background-color: darkolivegreen;
 }
 .title-login h1{
     font-size: 25px;
@@ -48,6 +46,55 @@ form input{
     width: 75%;
     margin-bottom: 10px;
     border: none;
-    border-radius: 10px;
-    background-color: grey;
+    border-radius: 5px;
+    background-color: #DCDCDC;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+form input:hover{
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+}
+.midia-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.midia-card{
+    background-color: mediumpurple;
+    height: 35px;
+    width: 74px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.fecebook{
+    background-color: #4e71ba;
+    box-sizing: border-box;
+    border: 1.5px solid #2f55a4 ;
+    margin-left: 1px;
+}
+#fecebook{
+    padding: 0.5px;
+    background-color: #FFF;
+    border-radius: 50%;
+    /* height: 30px; */
+}
+.google{
+    background-color: #fff;
+    border: 1.5px solid #DCDCDC ;
+}
+.apple{
+    background-color: #000;
+}
+.midia-card img{
+    height: 25px;
 }
