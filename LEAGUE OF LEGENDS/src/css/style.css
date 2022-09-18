@@ -115,15 +115,72 @@ input[type=checkbox]{
     font-family: 'Roboto', sans-serif;
 }
 .button-start{
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 .button-start button{
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid #DCDCDC;
+    border: 2px solid #DCDCDC;
     background-color: #FFF;
 }
 .button-start button img{
-    height: 40px;
+    height: 35px;
+}
+.login-help{
+    text-align: center;
+    width: 100%;
+}
+.login-help h2{
+    text-transform: uppercase;
+    font-size: 13.5px;
+    font-weight: bold;
+    font-family:'Source Sans Pro', sans-serif;
+    opacity: 0.5;
+}
+.login-help p{
+    float: right;
+    font-family:'Source Sans Pro', sans-serif;
+    padding-right: 40px;
+    font-size: 12px;
+    opacity: 0.4;
+}
+/* ===================================================== */
+
+.layout{
+    width: 100%;
+    background-image: url(../assets/Udyr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.icone-out{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icone-out img{
+    height: 15px;
+    padding-right: 15px;
+}
+.option{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.option img{
+    height: 35px;
+    margin: 15px;
+}
+.square{
+    padding: 5px;
+    background-color: #af69ee;
+}
+.square-02{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #424242bb;
 }
