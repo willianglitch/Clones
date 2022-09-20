@@ -149,7 +149,7 @@ input[type=checkbox]{
 
 .layout{
     width: 100%;
-    background-image: url(../assets/Udyr.jpg);
+    background-image: url(../assets/Udyr-02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -171,7 +171,19 @@ input[type=checkbox]{
     justify-content: space-between;
     align-items: center;
 }
+/* .information{
+    height: 35px;
+    width: 35px;
+    background-color: #af69ee;
+    margin: 15px;
+    transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   position: relative;
+} */
 .option img{
+    /* position: absolute;
+    position: center; */
     height: 35px;
     margin: 15px;
 }
