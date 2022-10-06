@@ -11,7 +11,7 @@
 }
 .login-card{
     background-color: #fff;
-    width: 25%;
+    width: 450PX;
 }
 .logo{
     height: 150px;
@@ -171,7 +171,7 @@ input[type=checkbox]{
     justify-content: space-between;
     align-items: center;
 }
-/* .information{
+.information{
     height: 35px;
     width: 35px;
     background-color: #af69ee;
@@ -180,16 +180,19 @@ input[type=checkbox]{
    -ms-transform: rotate(45deg);
    -webkit-transform: rotate(45deg);
    position: relative;
-} */
-.option img{
-    /* position: absolute;
-    position: center; */
-    height: 35px;
-    margin: 15px;
+   border-radius: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
-.square{
-    padding: 5px;
-    background-color: #af69ee;
+.exclamacao{
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+   -webkit-transform: rotate(-45deg);
+}
+.option img{
+    height: 20px;
+    /* position: absolute; */
 }
 .square-02{
     padding: 5px;
